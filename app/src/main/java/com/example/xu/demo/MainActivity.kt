@@ -23,11 +23,14 @@ class MainActivity : AppCompatActivity() {
         // 简书4（ImageLoader加载库）
         findViewById<Button>(R.id.button4).setOnClickListener { openWebsite("https://www.jianshu.com/p/1030b3bcac8b") }
 
+        // 简书5（Handler机制理解）
+        findViewById<Button>(R.id.button5).setOnClickListener { openWebsite("https://www.jianshu.com/p/03f31f73c235") }
+
         // 掘金1（Xpopupwindow）
-        findViewById<Button>(R.id.button5).setOnClickListener { openWebsite("https://juejin.im/post/5b67101e6fb9a04f9963c818") }
+        findViewById<Button>(R.id.button6).setOnClickListener { openWebsite("https://juejin.im/post/5b67101e6fb9a04f9963c818") }
 
         // 掘金2（View和属性动画解析）
-        findViewById<Button>(R.id.button6).setOnClickListener { openWebsite("https://juejin.im/post/5a029ff46fb9a045076f166e") }
+        findViewById<Button>(R.id.button7).setOnClickListener { openWebsite("https://juejin.im/post/5a029ff46fb9a045076f166e") }
     }
 
     private fun openWebsite(address: String) {

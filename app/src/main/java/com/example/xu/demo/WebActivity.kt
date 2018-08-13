@@ -5,17 +5,10 @@ import android.graphics.Bitmap
 import android.net.Uri
 import android.os.Bundle
 import android.os.Handler
-import android.support.test.uiautomator.UiDevice
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
 import android.view.KeyEvent
 import android.webkit.*
-import android.widget.Button
-
-import android.support.test.InstrumentationRegistry.getInstrumentation
-import android.support.v4.os.HandlerCompat.postDelayed
-import android.support.v4.os.HandlerCompat.postDelayed
-
 
 /**
  * Created by xu on 2018/8/10.
