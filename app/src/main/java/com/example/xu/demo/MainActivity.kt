@@ -37,6 +37,9 @@ class MainActivity : AppCompatActivity() {
 
         // 掘金3（View和属性动画解析）
         findViewById<Button>(R.id.button9).setOnClickListener { openWebsite("https://juejin.im/post/5a029ff46fb9a045076f166e") }
+
+        // 掘金4（ButterKnife）
+        findViewById<Button>(R.id.button10).setOnClickListener { openWebsite("https://juejin.im/post/5a36412f6fb9a0451d418e2f") }
     }
 
     private fun openWebsite(address: String) {
