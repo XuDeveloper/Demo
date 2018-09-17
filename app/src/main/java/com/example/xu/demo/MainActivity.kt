@@ -29,17 +29,23 @@ class MainActivity : AppCompatActivity() {
         // 简书6（adb）
         findViewById<Button>(R.id.button6).setOnClickListener { openWebsite("https://www.jianshu.com/p/5f267d5f3b30") }
 
+        // 简书7（Kotlin）
+        findViewById<Button>(R.id.button7).setOnClickListener { openWebsite("https://www.jianshu.com/p/6350423f1063") }
+
         // 掘金1（Xpopupwindow）
-        findViewById<Button>(R.id.button7).setOnClickListener { openWebsite("https://juejin.im/post/5b67101e6fb9a04f9963c818") }
+        findViewById<Button>(R.id.button8).setOnClickListener { openWebsite("https://juejin.im/post/5b67101e6fb9a04f9963c818") }
 
         // 掘金2（View和属性动画解析）
-        findViewById<Button>(R.id.button8).setOnClickListener { openWebsite("https://juejin.im/post/5b27bfc56fb9a00e373bd232") }
+        findViewById<Button>(R.id.button9).setOnClickListener { openWebsite("https://juejin.im/post/5b27bfc56fb9a00e373bd232") }
 
         // 掘金3（View和属性动画解析）
-        findViewById<Button>(R.id.button9).setOnClickListener { openWebsite("https://juejin.im/post/5a029ff46fb9a045076f166e") }
+        findViewById<Button>(R.id.button10).setOnClickListener { openWebsite("https://juejin.im/post/5a029ff46fb9a045076f166e") }
 
         // 掘金4（ButterKnife）
-        findViewById<Button>(R.id.button10).setOnClickListener { openWebsite("https://juejin.im/post/5a36412f6fb9a0451d418e2f") }
+        findViewById<Button>(R.id.button11).setOnClickListener { openWebsite("https://juejin.im/post/5a36412f6fb9a0451d418e2f") }
+
+        // 掘金5（Kotlin）
+        findViewById<Button>(R.id.button12).setOnClickListener { openWebsite("https://juejin.im/post/5b9bb5c26fb9a05cf67a78c0") }
     }
 
     private fun openWebsite(address: String) {
